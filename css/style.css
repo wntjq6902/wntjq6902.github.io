@@ -13,3 +13,13 @@
   background-color: #160068;
   border-color: #160068;
 }
+@keyframe hoverhideani{
+  From: [opacity: 1.0;]
+  To: [opqcity: 0.0;]
+}
+.hiddentillhover {
+  animation(hoverhideani 1s linear 0s 1 reverse);
+}
+.hiddenuntillhover.hover {
+  animation(hoverhideani 1s linear 0s 1);
+}
