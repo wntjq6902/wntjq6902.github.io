@@ -6,21 +6,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	</head>
 	<body>
-		<script type="text/javascript">
-			switch(Math.floor(Math.random() * 4)) {
-				case 0:
-					window.open('https://youtu.be/ByC8sRdL-Ro?t=33s', '_self');
-					break;
-				case 1:
-					window.open('https://youtu.be/OL7B2z56ziQ?t=53s', '_self');
-					break;
-				case 2:
-					window.open('https://youtu.be/OLpeX4RRo28?t=17s', '_self');
-					break;
-				case 3:
-					window.open('https://www.youtu.be/fTobYJmdCCU', '_self');
-					break;
-			}
+		<script>
+			var randURLs = [
+				"https://www.youtu.be/fTobYJmdCCU",
+				"https://youtu.be/OLpeX4RRo28?t=17s",
+				"https://youtu.be/OL7B2z56ziQ?t=53s",
+				"https://youtu.be/ByC8sRdL-Ro?t=33s"
+			];
+			var randURL = Math.floor(Math.random() * randURLs.length);
+			window.open(randURLs[randURL]);
 		</script>
 	</body>
 </html>
