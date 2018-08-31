@@ -18,8 +18,8 @@
   To: [opqcity: 0.0;]
 }
 .hiddentillhover {
-  animation(hoverhideani 1s linear 0s 1 reverse);
+  animation(hoverhideani 1s linear 0s 1);
 }
 .hiddenuntillhover.hover {
-  animation(hoverhideani 1s linear 0s 1);
+  animation(hoverhideani 1s linear 0s 1 reverse);
 }
