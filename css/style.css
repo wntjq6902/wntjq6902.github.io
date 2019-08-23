@@ -1,20 +1,29 @@
-.youtube-red {
+.youtube-red
+{
   color: #fff;
   background-color: #ff2100;
   border-color: #ff2100;
 }
-.steam-blue {
+.steam-blue
+{
   color: #fff;
   background-color: #2700b5;
   border-color: #2700b5;
 }
-@keyframe hoverhideani{
-  From: [opacity: 1.0;]
-  To: [opqcity: 0.0;]
+@keyframes hoverhideani
+{
+  from
+  {
+    opacity: 1.0;
+  }
+  to
+  {
+    opqcity: 0.0;
+  }
 }
 .hiddentillhover {
-  animation(hoverhideani 1s linear 0s 1);
+  animation: hoverhideani 1s linear 0s 1;
 }
 .hiddenuntillhover.hover {
-  animation(hoverhideani 1s linear 0s 1 reverse);
+  animation: hoverhideani 1s linear 0s 1 reverse;
 }
