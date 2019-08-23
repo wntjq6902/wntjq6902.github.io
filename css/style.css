@@ -8,11 +8,6 @@
   background-color: #2700b5;
   border-color: #2700b5;
 }
-.kym-blue {
-  color: #fff;
-  background-color: #160068;
-  border-color: #160068;
-}
 @keyframe hoverhideani{
   From: [opacity: 1.0;]
   To: [opqcity: 0.0;]
